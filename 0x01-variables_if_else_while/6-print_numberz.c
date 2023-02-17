@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point
- *
+ * Uses ASCII (between 48 and 57 for 0 to 9)
  * Return: Always 0 (Success)
  */
 
