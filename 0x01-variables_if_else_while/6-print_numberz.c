@@ -10,11 +10,11 @@
 int main(void)
 {
 	int s;
-	
+
 	for (s = 48; s <= 57; s++)
-		putchar(s);
-	
+		putchar(s;
+
 	putchar('\n');
 
 	return (0);
-}	
+}
