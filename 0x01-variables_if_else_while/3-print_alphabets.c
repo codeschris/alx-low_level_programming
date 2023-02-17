@@ -11,18 +11,14 @@
 int main(void)
 {
 	char s;
-	char t;
-	int up;
 
 	for (s = 'a'; s <= 'z'; s++)
 	{
-		up = toupper(s);
-
 		putchar(s);
 	}
-	for (t = 'A'; t <= 'Z'; t++)
+	for (s = 'A'; s <= 'Z'; s++)
 	{
-		putchar(t);
+		putchar(s);
 	}
 
 	putchar('\n');
