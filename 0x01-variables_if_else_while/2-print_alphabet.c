@@ -9,9 +9,11 @@
 
 int main(void)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-
-	putchar(alphabet);
+	for(int s = "A"; s <= "Z", x++)
+	{
+		int low_alph = to_lower(s);
+		putchar(low_alph);
+	}
 
 	return (0);
 }
