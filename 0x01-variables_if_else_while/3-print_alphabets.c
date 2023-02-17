@@ -19,7 +19,6 @@ int main(void)
 		up = toupper(s);
 
 		putchar(s);
-		putchar(up);
 	}
 	for (t = 'A'; t <= 'Z'; t++)
 	{
