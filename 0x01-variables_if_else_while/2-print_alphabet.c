@@ -9,10 +9,10 @@
 
 int main(void)
 {
-	for(int s = "A"; s <= "Z", x++)
+	for(s = "a"; s <= "z", x++)
 	{
-		int low_alph = to_lower(s);
-		putchar(low_alph);
+		putchar(s);
+		putchar("\n");
 	}
 
 	return (0);
