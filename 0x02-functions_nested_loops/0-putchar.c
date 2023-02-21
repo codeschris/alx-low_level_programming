@@ -1,4 +1,5 @@
 #include "main.h"
+#include <unistd.h>
 
 /**
  * main - Entry point
@@ -13,9 +14,9 @@ int main(void)
 	int n;
 
 	for(n = 0; n < 8; n++)
-		putchar(name[n]);
+		_putchar(name[n]);
 
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
