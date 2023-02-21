@@ -13,7 +13,13 @@ int _islower(int c)
 	char a;
 	
 	for (a = 'a'; a <= 'z'; a++)
-		return (0);
+	{
+		if (a == c)
+			return (0);
+	}
 	for (a = 'A'; a <= 'Z'; a++)
-		return (1);
+	{
+		if (a == c)
+			return (1);
+	}
 }
