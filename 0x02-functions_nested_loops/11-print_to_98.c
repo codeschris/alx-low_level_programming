@@ -20,7 +20,7 @@ void print_to_98(int x)
 
 			if (x == 98)
 				continue;
-			printf(",  ");
+			printf(", ");
 		}
 		printf("\n");
 	}
