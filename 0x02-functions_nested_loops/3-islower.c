@@ -8,7 +8,7 @@
  * Return: 0 or 1
  */
 
-void _islower()
+void _islower(int c)
 {
 	char c;
 
