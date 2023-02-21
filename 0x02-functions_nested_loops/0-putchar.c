@@ -11,7 +11,7 @@ int main(void)
 	char name[8] = "_putchar";
 	int n;
 
-	for(n = 0; n < 8; n++)
+	for (n = 0; n < 8; n++)
 		_putchar(name[n]);
 	_putchar('\n');
 
