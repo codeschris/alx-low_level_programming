@@ -5,7 +5,7 @@
  *
  * Description: The function checks for lowercase letters
  *
- * Return: 0 or 1
+ * Return: value depending on the case of the letter
  */
 
 int _islower(int c)
