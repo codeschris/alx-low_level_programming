@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - Check Description
- * 
+ *
  * Description: functions print minutes from 0000hrs to 2359hrs
  *
  * Return: Nothing
