@@ -15,6 +15,4 @@ void print_alphabet(void)
 	for (start = 'a'; start <= 'z'; start++)
 		_putchar(start);
 	_putchar('\n');
-
-	return (0);
 }
