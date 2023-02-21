@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * main - Entry point 
+ * print_alphabet - Check description
  *
- * Include all prototypes inside of main.h either before continuing or after creating a file
+ * Description: It prints the alphabet in lowercase followed by a newline
  *
- * Return: Always 0 (Success)
+ * Return: Nothing
  */
 
 void print_alphabet(void)
