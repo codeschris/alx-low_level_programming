@@ -8,16 +8,12 @@
  * Return: 0 or 1
  */
 
-void _islower(int c)
+int _islower(int c)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		return 1;
-	}
-	for (c = 'A'; c <= 'Z'; c++)
-	{
-		return 0;
-	}
+	char a;
+	
+	for (a = 'a'; a <= 'z'; a++)
+		return (0);
+	for (a = 'A'; a <= 'Z'; a++)
+		return (1);
 }
