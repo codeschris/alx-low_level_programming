@@ -8,7 +8,7 @@
  * Return: Nothing
  */
 
-void print_alphabet_x1i0(void)
+void print_alphabet_x10(void)
 {
 	char i;
 	int n;
