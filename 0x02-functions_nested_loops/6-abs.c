@@ -2,7 +2,7 @@
 
 /**
  * _abs - Check Description
- *
+ * @i: integer
  * Description: gives absolute value of given integer
  *
  * Return: absolute value of number i
