@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Function islower - Check Description
+ * islower - Check Description
  *
  * Description: The function checks for lowercase letters
  *
