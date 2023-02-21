@@ -5,7 +5,7 @@
  *
  * Description: gives absolute value of given integer
  *
- * Return: Nothing
+ * Return: absolute value of value i
  */
 
 int _abs(int i)
