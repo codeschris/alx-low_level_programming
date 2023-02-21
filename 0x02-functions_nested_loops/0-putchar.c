@@ -13,9 +13,9 @@ int main(void)
 	int n;
 
 	for(n = 0; n < 8; n++)
-		_putchar(name[n]);
+		putchar(name[n]);
 
-	_putchar('\n');
+	putchar('\n');
 
 	return (0);
 }
