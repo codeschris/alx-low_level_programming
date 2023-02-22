@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-void positive_or_negative(int)
+int positive_or_negative(void)
 {
 	int n;
 
@@ -21,4 +21,6 @@ void positive_or_negative(int)
 		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
+
+	return (0);
 }
