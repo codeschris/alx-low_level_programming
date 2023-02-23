@@ -8,9 +8,9 @@
 
 void more_numbers(void)
 {
-	int n, c;
+	int n = 0, c;
 
-	for (n = 0; n <= 10; n++)
+	for (;n <= 10; n++)
 	{
 		for (c = 0; c <= 14; c++)
 		{
