@@ -3,9 +3,11 @@
 
 /**
  * main - Entry point
+ *
  * Description: Print 1 to 100 but multiples of 3 get fizz, 
  * multiples of 5 get buzz and 15 gets fizzbuzz
- * Return: 0
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -22,7 +24,6 @@ int main(void)
 			printf("FizzBuzz");
 		else
 			printf("%i", i);
-
 		if (i < 100)
 			printf(" ");
 	}
