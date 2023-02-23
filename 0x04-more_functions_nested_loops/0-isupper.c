@@ -3,8 +3,7 @@
 /**
  * _isupper - Check Description
  * @c: input
- * Description: checks for uppercase letters and returns
- * 1 if uppercase and 0 otherwise
+ * Description: checks for uppercase letters
  *
  * Return: 1 if uppercase, 0 if otherwise
  */
@@ -12,12 +11,12 @@
 int _isupper(int c)
 {
 	char i;
+	int low = 0;
 
 	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (c == i)
-			return (1);
-		else
-			return (0);
+			low = 1;
 	}
+	return (low);
 }
