@@ -3,7 +3,7 @@
 /**
  * print_number - function prints a value
  *
- * @n: input 
+ * @n: input
  *
  * Return: Nothing
  */
