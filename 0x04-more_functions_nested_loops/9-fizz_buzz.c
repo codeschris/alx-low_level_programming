@@ -4,9 +4,6 @@
 /**
  * main - Entry point
  *
- * Description: Print 1 to 100 but multiples of 3 get fizz, 
- * multiples of 5 get buzz and 15 gets fizzbuzz
- *
  * Return: Always 0 (Success)
  */
 
@@ -14,16 +11,16 @@ int main(void)
 {
 	int i;
 
-	for (i = 1; i < 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
-		if (i % 15 == 0)
+		if (i % 3 == 0 && i % 5 == 0)
 			printf("FizzBuzz");
 		else if (i % 3 == 0)
 			printf("Fizz");
 		else if (i % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%i", i);
+			printf("%d", i);
 		if (i < 100)
 			printf(" ");
 	}
