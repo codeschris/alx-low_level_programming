@@ -18,10 +18,10 @@ void print_square(int size)
 
 	for (n = 0; n < size; n++)
 	{
-		for (k = 0; k < n; k++)
+		for (k = 0; k < size; k++)
 		{
 			_putchar(35);
 		}
+		_putchar('\n');
 	}
-	_putchar(35);
 }
