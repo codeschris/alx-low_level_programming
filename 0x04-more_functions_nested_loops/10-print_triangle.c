@@ -20,12 +20,13 @@ void print_triangle(int size)
 		{
 			for (z = size - x; z >= 1; z--)
 			{
-				for (y = 1; y <= x; y++)
-				{
-					_putchar(35);
-				}
-				_putchar('\n');
+				_putchar(' ');
 			}
+			for (y = 1; y <= x; y++)
+			{
+				_putchar(35);
+			}
+			_putchar('\n');
 		}
 	}
 }
