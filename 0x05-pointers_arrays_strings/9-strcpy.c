@@ -1,5 +1,5 @@
 /**
- * strcpy - function prints string pointed to by src,
+ * _strcpy - function prints string pointed to by src,
  * including terminating null byte, to the buffer pointed
  * to by dest
  *
