@@ -1,11 +1,12 @@
 /**
- * strcpy - function prints string pointed to by src, 
- * including terminating null bye
+ * strcpy - function prints string pointed to by src,
+ * including terminating null byte, to the buffer pointed
+ * to by dest
  *
  * @dest: destination pointer
  * @src: initial pointer
  *
- * Return: poinetr to dest
+ * Return: pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
