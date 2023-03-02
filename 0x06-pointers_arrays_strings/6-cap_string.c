@@ -17,14 +17,26 @@ char *cap_string(char *s)
 		if (i == 0)
 		{
 			if (s[i] >= 'a' && s[i] <= 'z')
+			{
 				s[i] -= 32;
+				continue;
+			}
 		}
-		if (s[i] ==  ' ')
+		if (s[i] >= 32 && s[i] <= 152)
 		{
-			++i;
+			i++;
 
 			if (s[i] >= 'a' && s[i] <= 'z')
+			{
 				s[i] -= 32;
+				continue;
+			}
+			else
+			{
+				if (s[i] >= 'A' && s[i] <= 'Z')
+					s[i] += 32;
+			}
 		}
 	}
+	return (p);
 }
