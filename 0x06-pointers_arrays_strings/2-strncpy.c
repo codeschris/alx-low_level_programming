@@ -5,9 +5,9 @@
  *
  * @dest: input string
  * @src: input string
- * @n: bits in number format
+ * @n: input integer
  *
- * Return: pointer returning string
+ * Return: pointer to the resulting string
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -17,8 +17,8 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (*src)
 	{
-		src++;
 		len++;
+		src++;
 	}
 
 	len++;
