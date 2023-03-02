@@ -1,13 +1,7 @@
 #include "main.h"
 
-/**
- * _strncpy - function that copies a string
+/*
  *
- * @dest: input string
- * @src: input string
- * @n: limit in number format
- *
- * Return: pointer to the resulting string
  */
 
 char *_strncpy(char *dest, char *src, int n)
