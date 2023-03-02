@@ -12,24 +12,24 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	char *tmp = dest;
+	char *tmp = dest, *st = src;
 	int x = 0, len = 0;
 
-	while (*src != '\0')
+	while (*src)
 	{
-		*dest = *src;
-		dest++;
 		src++;
 		len++;
 	}
 
+	len++;
+
 	if (n > len)
 		n = len;
 
+	src = st;
+
 	for (; x < n; x++)
 		*dest++ = *src++;
-
-	*dest = '\0';
 
 	return (tmp);
 }
