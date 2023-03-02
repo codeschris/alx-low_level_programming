@@ -9,15 +9,15 @@
  * Return: uppercase letters/strings
  */
 
-char *string_toupper(char *s)
+char *string_toupper(char *is)
 {
-	char *st = s;
+	char *st = is;
 
-	while (*s)
+	while (*is)
 	{
-		if (*s >= 'a' && *s <= 'z')
-			*s -= 32;
-		s++
+		if (*is >= 'a' && is <= 'z')
+			*is -= 32;
+		is++
 	}
 
 	return (st);
