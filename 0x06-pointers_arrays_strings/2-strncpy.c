@@ -5,7 +5,7 @@
  *
  * @dest: input string
  * @src: input string
- * @n: input integer
+ * @n: limit in number format
  *
  * Return: pointer to the resulting string
  */
