@@ -10,4 +10,39 @@
 
 void print_number(int n)
 {
+	int p;
+	int neg;
+	int w;
 
+	neg = 0;
+	power = 1;
+	w = n;
+
+	if (n < 0)
+	{
+		_putchar('-');
+		neg = 1;
+	}
+
+	while (p > 0)
+	{
+		if (p > 9)
+		{
+			if (!neg)
+				_putchar((n / p % 10) + '0');
+			else
+				_putchar((n / p % 10) * -1 + '0');
+
+			power /= 10;
+		}
+
+		if (p == 1)
+		{
+			if (neg)
+				_putchar((n % 10) * -1 + '0');
+			else
+				_putchar(n % 10 + '0');
+			p = 0;
+		}
+	}
+}
