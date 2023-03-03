@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_number - function prints an integer
@@ -12,11 +13,9 @@ void print_number(int n)
 {
 	int p;
 	int neg;
-	int w;
 
 	neg = 0;
-	power = 1;
-	w = n;
+	p = 1;
 
 	if (n < 0)
 	{
@@ -33,7 +32,7 @@ void print_number(int n)
 			else
 				_putchar((n / p % 10) * -1 + '0');
 
-			power /= 10;
+			p /= 10;
 		}
 
 		if (p == 1)
