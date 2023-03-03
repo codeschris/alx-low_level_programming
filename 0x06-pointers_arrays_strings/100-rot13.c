@@ -22,7 +22,9 @@ char *rot13(char *s)
 		while (j < 53)
 		{
 			if (s[i] == a[j] || s[i] - 32 == a[j])
+			{
 				s[i] = r[j];
+			}
 
 			j++;
 		}
