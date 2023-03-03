@@ -12,8 +12,8 @@ char *rot13(char *s)
 {
 	int i = 0, j;
 
-	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char r[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char rot[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	while (s[i])
 	{
@@ -21,14 +21,17 @@ char *rot13(char *s)
 
 		while (j < 53)
 		{
-			if (s[i] == a[j] || s[i] - 32 == a[j])
+			if (s[i] == alpha[j] || s[i] - 32 == alpha[j])
 			{
-				s[i] = r[j];
+				s[i] = rot[j];
 			}
 
 			j++;
 		}
+
 		i++;
+
 	}
+
 	return (s);
 }
