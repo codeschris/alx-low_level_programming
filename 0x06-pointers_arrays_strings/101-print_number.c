@@ -16,11 +16,18 @@ void print_number(int n)
 
 	neg = 0;
 	p = 1;
+	w = n;
 
 	if (n < 0)
 	{
 		_putchar('-');
 		neg = 1;
+	}
+
+	while (w > 9 || w < -9)
+	{
+		p *= 10;
+		w /= 10;
 	}
 
 	while (p > 0)
