@@ -19,14 +19,14 @@ char *rot13(char *s)
 	{
 		j = 0;
 
-		while (i < 53)
+		while (j < 53)
 		{
 			if (s[i] == a[j] || s[i] - 32 == a[j])
 				s[i] = r[j];
 
-			i++;
+			j++;
 		}
-		j++;
+		i++;
 	}
 	return (s);
 }
