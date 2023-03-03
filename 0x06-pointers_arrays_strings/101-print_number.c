@@ -12,6 +12,7 @@
 void print_number(int n)
 {
 	int p;
+	int w;
 	int neg;
 
 	neg = 0;
