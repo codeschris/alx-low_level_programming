@@ -11,9 +11,7 @@
 
 void print_number(int n)
 {
-	int p;
-	int w;
-	int neg;
+	int p, w, neg;
 
 	neg = 0;
 	p = 1;
