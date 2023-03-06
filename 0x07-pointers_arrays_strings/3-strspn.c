@@ -12,13 +12,27 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int n = 0;
-
-	if ((*s == '\0') || (*accept == '\0'))
-		return (n);
+	int n = 0, i;
+	char *x = accept;
 
 	while (*s)
-		n++;
+	{
+		i = 0;
+		while (*accept)
+		{
+			if (*accept == *s)
+			{
+				n++;
+				i = 1;
+				break;
+			}
+			accept++;
+		}
+		s++;
+		accept = x;
+		if (i == 0)
+			break;
+	}
 
 	return (n);
 }
