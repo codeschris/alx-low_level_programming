@@ -3,9 +3,9 @@
 /**
  * print_chessboard - function prints a chessboard
  *
- * @a[8]: input array
+ * @a: input array
  *
- * Return: full chessboard
+ * Return: Nothing
  */
 
 void print_chessboard(char (*a)[8])
