@@ -10,16 +10,21 @@
 
 int main(int argc, char **argv)
 {
-	int n1, n2, sum;
+	int n, sum = 0, i;
 
-	if (argc != 3)
-		return (1);
-	else
+	while (argc-- > 1)
 	{
-		n1 = atoi(argv[1]);
-		n2 = atoi(argv[2]);
-		sum = n1 + n2;
-		printf("%d\n", sum);
-		return (0);
+		for (i = 0; argv[argc][i]; i++)
+		{
+			if (!(isdigit(argv[argc][i])))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		num = atoi(argv[argc]);
+		sum += n;
 	}
+	printf("%d\n", sum);
+	return (0);
 }

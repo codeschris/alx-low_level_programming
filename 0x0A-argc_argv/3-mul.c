@@ -14,7 +14,10 @@ int main(int argc, char **argv)
 	int n1, n2, prod;
 
 	if (argc != 3)
+	{
+		printf("Error\n");
 		return (1);
+	}
 	else
 	{
 		n1 = atoi(argv[1]);
