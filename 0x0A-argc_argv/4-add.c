@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 /**
  * main - program adds two values
@@ -22,7 +23,7 @@ int main(int argc, char **argv)
 				return (1);
 			}
 		}
-		num = atoi(argv[argc]);
+		n = atoi(argv[argc]);
 		sum += n;
 	}
 	printf("%d\n", sum);
