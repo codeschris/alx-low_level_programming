@@ -12,12 +12,12 @@
 
 char *_strdup(char *str)
 {
-	if (str == NULL)
-		return (NULL);
-
 	char *new;
 	char *st;
 	int n = 0, x = 0;
+
+	if (str == NULL)
+		return (NULL);
 
 	st = str;
 
