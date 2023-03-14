@@ -23,7 +23,7 @@ char *_strdup(char *str)
 	while (*str)
 	{
 		x++;
-		str++
+		str++;
 	}
 
 	str = st;
@@ -34,7 +34,7 @@ char *_strdup(char *str)
 	{
 		for (; n < x; n++)
 		{
-			new[n] = str;
+			new[n] = *str;
 			str++;
 		}
 		new = '\0';
