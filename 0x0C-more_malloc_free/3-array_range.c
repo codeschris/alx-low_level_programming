@@ -24,7 +24,7 @@ int *array_range(int min, int max)
 		return (NULL);
 
 	for (n = 0; n <= df; n++)
-		new[i] = min++;
+		new[n] = min++;
 
 	return (new);
 }
