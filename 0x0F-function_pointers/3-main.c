@@ -15,6 +15,10 @@
 int main(int argc, char *argv[])
 {
 	int (*func)(int, int);
+	int a, b;
+
+	a = atoi(argv[1]);
+	b = atoi(argv[3]);
 
 	if (argc != 4)
 		exit(98);
@@ -24,7 +28,7 @@ int main(int argc, char *argv[])
 	if (func == NULL)
 		exit(99);
 
-	printf("%d\n", func(atoi(argv[1]), atoi(argv[3])));
+	printf("%d\n", func(a, b));
 
 	return (0);
 }
