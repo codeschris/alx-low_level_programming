@@ -31,5 +31,5 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	printf("Error\n");
-	exit(98)
+	exit(98);
 }
