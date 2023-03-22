@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(2);
 	}
-	ptr = (unsigned char *)main;
+	ptr =  *(unsigned char *)main;
 	i = 0;
 	if (x > 0)
 	{
