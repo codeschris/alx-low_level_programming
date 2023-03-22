@@ -3,12 +3,9 @@
 #include <stdio.h>
 
 /**
- * print_name - function prints a given name
- *
+ * print_name - prints a given name
  * @name: input string of name
- * @f: function prints the given name
- *
- * Return: Nothing
+ * @f: function used to print
  */
 
 void print_name(char *name, void (*f)(char *))
