@@ -15,12 +15,12 @@ list_t *add_node(list_t **head, const char *str)
 	list_t *tmp;
 	int n = 0;
 
+	while (str[n])
+		n++;
+
 	tmp = malloc(sizeof(list_t));
 	if (tmp == NULL)
 		return (NULL);
-
-	while (str[n])
-		n++;
 
 	tmp->len = n;
 	tmp->str = strdup(str);
