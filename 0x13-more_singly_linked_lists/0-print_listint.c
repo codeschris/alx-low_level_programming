@@ -4,9 +4,9 @@
  * print_listint - function prints all elements of singly linked
  * list
  *
- * @h: ptr to the head of list
+ * @h: ptr to the list struct
  *
- * Return: no. of elements in the list
+ * Return: no. of nodes in the list
  */
 
 size_t print_listint(const listint_t *h)
@@ -15,7 +15,7 @@ size_t print_listint(const listint_t *h)
 
 	while (h != NULL)
 	{
-		printf("%d", h->n);
+		printf("%d\n", h->n);
 		h = h->next;
 		i++;
 	}
