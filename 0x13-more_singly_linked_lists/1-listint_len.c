@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * listint_len - function returns no. of elements in 
+ * listint_len - function returns no. of elements in
  * a linked list
  *
  * @h: ptr to the list struct
