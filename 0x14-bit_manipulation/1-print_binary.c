@@ -14,12 +14,6 @@ void print_binary(unsigned long int n)
 
 	max = n >> max;
 
-	if (max == 0 && n == 0)
-	{
-		_putchar('0');
-		return;
-	}
-
 	if (n > 1)
 		print_binary(max);
 	_putchar((n & 1) + '0');
