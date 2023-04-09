@@ -20,7 +20,7 @@ void print_binary(unsigned long int n)
 		return;
 	}
 
-	if (max != 0)
+	if (n > 1)
 		print_binary(max);
 	_putchar((n & 1) + '0');
 }
