@@ -10,4 +10,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 
 #include <stdio.h>
 #include <stdlib.h>
+int _putchar(char c);
+
 #endif
