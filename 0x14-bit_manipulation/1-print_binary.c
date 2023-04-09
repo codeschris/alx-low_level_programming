@@ -22,5 +22,5 @@ void print_binary(unsigned long int n)
 
 	if (max != 0)
 		print_binary(max);
-	_putchar((n & max) + '0');
+	_putchar((n & 1) + '0');
 }
